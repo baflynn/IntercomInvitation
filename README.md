@@ -1,6 +1,5 @@
-<snippet>
-  <content><![CDATA[
-# ${1: Intercom Invitation}
+ 
+# Intercom Invitation
 
 Tech Screener for Intercom written in C#
 
