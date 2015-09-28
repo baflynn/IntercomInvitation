@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntercomInvitation.Application", "IntercomInvitation.Application\IntercomInvitation.Application.csproj", "{5219C5AE-739A-4844-8E55-A119910B3A24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntercomInvitation.Domain", "IntercomInvitation.Domain\IntercomInvitation.Domain.csproj", "{773D8134-E9AF-4C29-9690-4781CE41F6B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntercomInvitation.Domain.Tests.Unit", "IntercomInvitation.Domain.Tests.Unit\IntercomInvitation.Domain.Tests.Unit.csproj", "{FC10126E-A9B8-413B-ACF1-E5F4E6D2CC8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntercomInvitation.Application.Tests.Integration", "IntercomInvitation.Application.Tests.Integration\IntercomInvitation.Application.Tests.Integration.csproj", "{E0D6633B-5347-4EC4-A81A-979408A40750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntercomInvitation.Application.Tests.Unit", "IntercomInvitation.Application.Tests.Unit\IntercomInvitation.Application.Tests.Unit.csproj", "{3022A799-D564-42F3-9371-7683EC68C6B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5219C5AE-739A-4844-8E55-A119910B3A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5219C5AE-739A-4844-8E55-A119910B3A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5219C5AE-739A-4844-8E55-A119910B3A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5219C5AE-739A-4844-8E55-A119910B3A24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{773D8134-E9AF-4C29-9690-4781CE41F6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773D8134-E9AF-4C29-9690-4781CE41F6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773D8134-E9AF-4C29-9690-4781CE41F6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773D8134-E9AF-4C29-9690-4781CE41F6B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC10126E-A9B8-413B-ACF1-E5F4E6D2CC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC10126E-A9B8-413B-ACF1-E5F4E6D2CC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC10126E-A9B8-413B-ACF1-E5F4E6D2CC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC10126E-A9B8-413B-ACF1-E5F4E6D2CC8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0D6633B-5347-4EC4-A81A-979408A40750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0D6633B-5347-4EC4-A81A-979408A40750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0D6633B-5347-4EC4-A81A-979408A40750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0D6633B-5347-4EC4-A81A-979408A40750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3022A799-D564-42F3-9371-7683EC68C6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3022A799-D564-42F3-9371-7683EC68C6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3022A799-D564-42F3-9371-7683EC68C6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3022A799-D564-42F3-9371-7683EC68C6B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
