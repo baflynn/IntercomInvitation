@@ -28,9 +28,11 @@ namespace IntercomInvitation.Domain.Tests.Unit
         {
             return new List<CustomerRecord>
                 {
-                    new CustomerRecord("Name1", 1, 37.7749, -122.4194),
+                    new CustomerRecord("Name3", 3, -33.8674869, 151.2069),
                     new CustomerRecord("Name2", 2, 51.5073, -0.1277),
-                    new CustomerRecord("Name3", 3, -33.8674869, 151.2069)
+                    new CustomerRecord("Name4", 4, -33.8674869, 151.2069),                   
+                    new CustomerRecord("Name1", 1, 37.7749, -122.4194)
+                                    
                 };
         }
 
@@ -92,6 +94,13 @@ namespace IntercomInvitation.Domain.Tests.Unit
             {
                 Assert.IsTrue(_invitationWriter.Invitees.Any(c => c.UserId == 1));
                 Assert.IsTrue(_invitationWriter.Invitees.Any(c => c.UserId == 2));
+            }
+
+            [Test]
+            public void it_should_order_the_customers()
+            {
+                Assert.IsTrue(_invitationWriter.Invitees.First().UserId == 1);
+                Assert.IsTrue(_invitationWriter.Invitees.Last().UserId == 2);
             }
         }
     }

@@ -3,6 +3,7 @@ using IntercomInvitation.Domain.Providers;
 using IntercomInvitation.Domain.Writers;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace IntercomInvitation.Domain
 {
@@ -57,7 +58,7 @@ namespace IntercomInvitation.Domain
                 }
             }
 
-            return invitees.Values;
+            return invitees.Values.OrderBy(c=> c.UserId);
         }
 
         private bool CustomerIsWithinRange(TerraLocation officeLocation, double distanceFromOfficeInKm, CustomerRecord customerRecord)
